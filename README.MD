@@ -1,6 +1,7 @@
 # NFT Lottery 
 ## Abstract
 - Lotteries and raffles can be completely decentralized into trustless contracts, with legitimate checks in place to contract owners that ensure a fair game for all who play.
+- Developers beware, 'private' lotteries are illegal in some countries (USA included), so be careful how you use this.
 
 ## About
 - Users can mint lottery tickets, which are mapped to their address as ERC721s (NFTs).
