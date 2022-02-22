@@ -1,0 +1,24 @@
+{
+  "name": "my-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "hardhat-gas-reporter": "^1.0.8"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.2.3",
+    "@chainlink/contracts": "^0.4.0",
+    "@openzeppelin/contracts": "^4.5.0",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0"
+  }
+}
