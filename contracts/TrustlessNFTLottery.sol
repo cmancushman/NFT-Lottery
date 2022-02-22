@@ -12,8 +12,8 @@ import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
 /**
  * This is the 100% fair and trustless iteration of the NFTLottery contract. The differences are as follows:
  * - There is no community minting; the owner is not able to mint a ticket beyond the means of any other user.
- * - The owner cannot decide the winner. The winner is only decided once all tickets are sold, and is done so internally.
- * - Anyone can call the cashOutWinnings function, once the winner has been declared.
+ * - The owner cannot decide when the winning ticket is set. The winner is only decided once all tickets are sold, via an internal function call.
+ * - Anyone can call the cashOutWinnings function, not just the owner, once the winner has been declared.
  * - WINNER_TAKE_HOME_PERCENTAGE is set to 100.
  *
  * The selfdestruct still occurs, but only because all contracts should be self-destructed after they outlive their usefulness. 
