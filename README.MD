@@ -1,4 +1,6 @@
 # NFT Lottery 
+**UI Demo can be found here: https://billion-dollar-mint.web.app/**
+
 ## Abstract
 - Lotteries and raffles can be completely decentralized into trustless contracts, with legitimate checks in place to contract owners that ensure a fair game for all who play.
 - Developers beware, 'private' lotteries are illegal in some countries (USA included), so be careful how you use this.
